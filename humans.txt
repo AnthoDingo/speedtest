@@ -1,0 +1,11 @@
+/* TEAM */
+	Developer: Viper61
+	Contact: me [at] viper61.eu
+	Twitter: @Viiper61
+	From: France
+
+/* SITE */
+	Last update: 2014/09/12
+	Language: French
+	Doctype: HTML5, CSS3
+	Software: Sublime Text, FileZilla, Photoshop

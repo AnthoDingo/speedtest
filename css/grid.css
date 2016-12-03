@@ -1,0 +1,56 @@
+.grid {
+  position: absolute;
+  right: 0;
+  margin-top: -175px;
+  width: 835px;
+  transform: rotateX(60deg) rotateZ(-20deg);
+  transform-style: preserve-3d;
+  z-index: -1;
+}
+.grid li {
+  background-size: 0, cover;
+  height: 400px; width: 225px;
+  float: left; margin: 20px;
+  list-style-type: none;
+  transform-style: preserve-3d;
+}
+
+
+.grid li:before, .grid li:after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: inherit;
+  background-size: cover;
+}
+
+
+.grid li:before {
+  transform-origin: left center;
+  transform: rotateY(90deg);
+  width: 5px;
+}
+
+
+.grid li:after {
+  transform-origin: bottom center;
+  transform: rotateX(90deg);
+  height: 5px; top: auto; bottom: 0;
+  background-position: bottom center;
+}
+
+
+.s {
+  position: absolute;
+  top: 30px; left: 30px; right: 30px; bottom: 30px;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 30px 30px rgba(0, 0, 0, 0.5);
+  transform: translateZ(-50px);
+}
+
+.one {background: linear-gradient(45deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("temp/Launcher.jpg") -400px;}
+.two {background: linear-gradient(45deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("temp/SGN800Likes.jpg") -130px;}
+.three {background: linear-gradient(45deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("temp/SGCDoorUDK.jpg") -250px;}
+/*.one {background: linear-gradient(45deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("http://gallery.stargate-network.net/temp/1408806128Launcher.jpg") -400px;}
+.two {background: linear-gradient(45deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("http://gallery.stargate-network.net/thumbs/1394750135SGN800Likes.jpg") -130px;}
+.three {background: linear-gradient(45deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("http://gallery.stargate-network.net/thumbs/1400376046SGCDoorUDK.jpg") -250px;}*/
